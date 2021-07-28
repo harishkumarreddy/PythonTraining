@@ -1,6 +1,6 @@
 ## Operators :
 1. Arithmetic operators     ->  `+, -, *, /, %, **, //`
-    NOTE: These will follow the BODMAS rule
+    NOTE: These will follow the BODMAS rule. check the bodmas.jpg inthis location
 2. Assignment operators     ->  `=, +=, -=, *=, /=, %=, **=, //=`
 3. Comparison operators     -> ` ==, !=, <, <=, >, >=`
 4. Logical operators        ->  `and, or, not`
