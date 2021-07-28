@@ -23,7 +23,7 @@
 | FALSE | or  | TRUE  | TRUE  |
 | FALSE | or  | FALSE | FALSE |
 -------------------------------
-| not TRUE   = FALSE           |
-| not FALSE  = TRUE            |
+| not TRUE   = FALSE          |
+| not FALSE  = TRUE           |
 -------------------------------
 ```
