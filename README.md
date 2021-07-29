@@ -6,6 +6,7 @@ Python training code base
 2.  [Python Intro](/Python%20for%20Data%20bricks-demo.pdf)
 3.  [Data Types](/DataTypes)  
 4.  [Operators](/Operators)
+5.  [Conditions](/Conditions)
 
 
 
