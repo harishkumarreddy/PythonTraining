@@ -38,7 +38,8 @@ else:
     c = 0
 
 
-message = "Apple"
+# message = "Apple"
+message = "Banana"
 ovels = ["a", "e", "i", "o", "u"]
 
 # print("a" != "A")
@@ -54,5 +55,15 @@ else:
     print(f"{message} is not an ovel")
 
 
+if message[0].lower() >= "a" and message[0].lower() <= "z":
+    if message[0].lower() in ovels:
+        print(f"{message} is an ovel")
+    else:
+        print(f"{message} is not an ovel")
+else:
+    print(f"{message} is not started with alphabets")
 
 
+d = "6"
+cat = "is Alphabet" if d >= "a" and d <= "z"  else "not an Alphabet"
+print(cat)
