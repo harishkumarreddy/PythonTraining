@@ -43,3 +43,41 @@ for item,i_value in x_dict.items():
         print(f"access {s_item} with x_dict['{item}']['{n}']")
         n+=1
 
+
+print("While block")
+x = 10
+xi =0
+y = 0
+while xi<=x:
+    while 3 <= xi <= 5:
+        print(f"The y number is: {y}")
+        y += 5
+        xi += 1
+    print(f"The xi number is: {xi}")
+    xi += 1
+
+
+print("Short hand:")
+s1 = [i for i in range(10) if i%2 == 0] # => fill with 10 numbers from 0 to 10
+s2 = [i for i in range(10) if i%2 == 1]
+s3 = [chr(i) for i in range(ord("a"), ord("z")+1)]
+s4 = [{"char":chr(i), "ASCI": i }for i in range(ord("a"), ord("z")+1)]
+
+# for i in range(10):
+#     s1.append(i)
+print(s1)
+print(s2)
+print(s3)
+print(s4)
+
+print("additional")
+for i in range(10):
+    if i == 3:
+        continue
+
+    if i == "7":
+        break
+
+    print(i)
+else:
+    print("Else triggered")
