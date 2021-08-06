@@ -7,6 +7,9 @@ Python training code base
 3.  [Data Types](/DataTypes)  
 4.  [Operators](/Operators)
 5.  [Conditions](/Conditions)
+6.  [Loops](/Loops)
+7.  [Functions](/Functions)
+8.  [Algorithms](/Algorithms)
 
 
 
