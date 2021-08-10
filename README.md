@@ -10,11 +10,11 @@ Python training code base
 6.  [Loops](/Loops)
 7.  [Functions](/Functions)
 8.  [Algorithms](/Algorithms)
-9.  [RegEx](/#RegEx)
+9.  [RegEx](/#regex)
 
 
 
-## RegEx :
+## RegEx:
 ```
 Character	Description
 \A	        Returns a match if the specified characters are at the beginning of the string	"\AThe"
