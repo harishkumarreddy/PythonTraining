@@ -11,17 +11,16 @@ Python training code base
 7.  [Functions](/Functions)
 8.  [Algorithms](/Algorithms)
 9.  [RegEx](/#regex)
+10. [FileIO](/#fileio)
 
 
 
 ## RegEx:
 ```
 Character	Description
-\A	        Returns a match if the specified characters are at the beginning of the string	"\AThe"
-\b	        Returns a match where the specified characters are at the beginning or at the end of a word
-            (the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\bain" r"ain\b"
-\B	        Returns a match where the specified characters are present, but NOT at the beginning (or at the end) of a word
-            (the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\Bain" r"ain\B"
+\A	        Returns a match if the specified characters are at the beginning of the string "\AThe"
+\b	        Returns a match where the specified characters are at the beginning or at the end of a word (the "r" in the beginning is making sure that the string is being                           treated as a "raw string")	r"\bain" r"ain\b"
+\B	        Returns a match where the specified characters are present, but NOT at the beginning (or at the end) of a word (the "r" in the beginning is making sure that                            the string is being treated as a "raw string")	r"\Bain" r"ain\B"
 \d	        Returns a match where the string contains digits (numbers from 0-9)	"\d"
 \D	        Returns a match where the string DOES NOT contain digits	"\D"
 \s	        Returns a match where the string contains a white space character	"\s"
@@ -33,12 +32,12 @@ Character	Description
 ```
 
 ```
-Set	        Description
-[arn]	    Returns a match where one of the specified characters (a, r, or n) are present
-[a-n]	    Returns a match for any lower case character, alphabetically between a and n
-[^arn]	    Returns a match for any character EXCEPT a, r, and n
-[0123]	    Returns a match where any of the specified digits (0, 1, 2, or 3) are present
-[0-9]	    Returns a match for any digit between 0 and 9
+Set	Description
+[arn]	Returns a match where one of the specified characters (a, r, or n) are present
+[a-n]	Returns a match for any lower case character, alphabetically between a and n
+[^arn]	Returns a match for any character EXCEPT a, r, and n
+[0123]	Returns a match where any of the specified digits (0, 1, 2, or 3) are present
+[0-9]	Returns a match for any digit between 0 and 9
 [0-5][0-9]	Returns a match for any two-digit numbers from 00 and 59
 [a-zA-Z]	Returns a match for any character alphabetically between a and z, lower case OR upper case
 
@@ -48,13 +47,38 @@ Set	        Description
 
 ```
 Function	Description
-search	      Returns a Match object if there is a match anywhere in the string
-findall	      Returns a list containing all matches
-split	      Returns a list where the string has been split at each match
-sub	        Replaces one or many matches with a string
+search	Returns a Match object if there is a match anywhere in the string
+findall	Returns a list containing all matches
+split	Returns a list where the string has been split at each match
+sub	Replaces one or many matches with a string
 ```
 
+## FileIO:
+1. Open
+2. Read -> r, r+
+3. Write -> w, w+
+4. Append -> a, a+
+5. Close
 
+```
+Data file typs:
+.dat
+.raw
+.csv ->,
+.psv -> |
+.tsv -> `     `
+.xls
+.xlsx
+.log
+
+.json -> dict
+.xml
+.yml
+
+.txp
+.pdf
+**
+```
 
 ---
 Author : [Harishkumar Reddy](harishkumerreddy.cherla@gmail.com)
